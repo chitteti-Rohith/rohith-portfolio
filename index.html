@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohith Chitteti — Software Developer</title>
+<meta name="description" content="Portfolio of Rohith Chitteti, aspiring software developer skilled in Python, Flask, SQL and web development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Rohith Chitteti</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
+    </nav>
+    <a href="#contact" class="btn btn-small btn-amber nav-cta">Contact</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME / HERO ============ -->
+  <section class="section hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow mono"><span class="dot"></span> who am I ?</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="highlight">Rohith Chitteti</span>
+        </h1>
+        <h2 class="hero-role mono">
+          <span id="typewriter"></span><span class="cursor">▌</span>
+        </h2>
+        
+          <p class="hero-desc">
+              <p class="hero-desc">
+                     Computer Science and Engineering undergraduate with hands-on experience
+                     in Python development, Full Stack technologies, and AI-powered applications.
+                     Passionate about solving real-world problems and building practical,
+                     user-friendly software solutions.
+              </p>
+        
+        </p>
+        <div class="hero-actions">
+          <a href="assets/Rohith_Chitteti_Resume.pdf" download class="btn btn-amber">
+            Download CV <span class="btn-icon">↓</span>
+          </a>
+          <a href="#projects" class="btn btn-ghost">View Projects</a>
+        </div>
+        <div class="hero-meta mono">
+          <span>📍 Sullurpet, Andhra Pradesh, IN</span>
+          <span class="meta-sep">·</span>
+          <span>🎓 B.Tech CSE · 2023–2027</span>
+        </div>
+
+        <div class="hero-social">
+          <span class="hero-social-label mono">Find me online</span>
+          <div class="social-row">
+             <a href="https://www.linkedin.com/in/rohith-chitteti-3283a8301/"
+                target="_blank" rel="noopener noreferrer"
+                class="social-btn social-linkedin" aria-label="LinkedIn">in</a>
+
+             <a href="mailto:chitteti.rohith15@gmail.com"
+                class="social-btn social-email" aria-label="Email">✉</a>
+
+             <a href="https://github.com/chitteti-Rohith"
+                target="_blank" rel="noopener noreferrer"
+                class="social-btn social-github" aria-label="GitHub">GH</a>
+         </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-card">
+          <img src="assets/rohith.jpg" alt="Rohith Chitteti" class="hero-photo">
+        </div>
+        <div class="hero-photo-blob"></div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+      <span class="scroll-cue-track"><span class="scroll-cue-dot"></span></span>
+    </a>
+  </section>
+
+  
+<!-- ============ ABOUT ============ -->
+<section class="section section-alt" id="about">
+  <div class="section-inner">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-grid">
+
+      <!-- LEFT: ABOUT INTRODUCTION -->
+      <div class="about-copy">
+
+        <p>
+          I'm a Computer Science and Engineering undergraduate at
+          NBKR Institute of Science &amp; Technology, pursuing my
+          B.Tech (2023–2027). I have a strong interest in Python
+          Development, Full Stack Development, and Artificial Intelligence.
+        </p>
+
+        <p>
+          I have hands-on experience building web applications and
+          AI-powered solutions using Python, Flask, React.js, JavaScript,
+          SQL, and REST APIs. I enjoy transforming ideas into practical
+          applications that solve real-world problems.
+        </p>
+
+        <p>
+          Through internships and projects, I have gained practical
+          exposure to software development, machine learning, API
+          integration, and database management. I continuously explore
+          new technologies and improve my problem-solving skills.
+        </p>
+
+        <h3 class="about-subhead">Areas of Interest</h3>
+
+        <div class="tag-list">
+          <span class="tag">Python Development</span>
+          <span class="tag">Full Stack Development</span>
+          <span class="tag">Artificial Intelligence</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: PERSONAL INFORMATION -->
+      <div class="about-info-card">
+
+        <h3 class="about-subhead">Personal Information</h3>
+
+        <div class="info-list">
+
+          <div class="info-row">
+            <span class="info-icon">👤</span>
+            <span class="info-key">Name</span>
+            <span class="info-val">Rohith Chitteti</span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-icon">✉️</span>
+            <span class="info-key">Email</span>
+            <span class="info-val">
+              <a href="mailto:chitteti.rohith15@gmail.com">
+                chitteti.rohith15@gmail.com
+              </a>
+            </span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-icon">📍</span>
+            <span class="info-key">Location</span>
+            <span class="info-val">
+              Sullurpet, Tirupati District, Andhra Pradesh, India
+            </span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-icon">🎓</span>
+            <span class="info-key">Education</span>
+            <span class="info-val">
+              B.Tech CSE, NBKR Institute of Science &amp; Technology
+              (2023–2027)
+            </span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-icon">🗣️</span>
+            <span class="info-key">Languages</span>
+            <span class="info-val">Telugu, English, Tamil</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="section-inner">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+      <!-- 1. Programming Languages -->
+      <div class="side-card">
+        <h3 class="mono">Programming Languages</h3>
+        <div class="tag-list">
+          <span class="tag">Python</span>
+          <span class="tag">Java (Basics)</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+      <!-- 2. Frontend Development -->
+      <div class="side-card">
+        <h3 class="mono">Frontend Development</h3>
+        <div class="tag-list">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React.js (Basics)</span>
+        </div>
+      </div>
+      <!-- 3. Backend Development -->
+      <div class="side-card">
+        <h3 class="mono">Backend Development</h3>
+        <div class="tag-list">
+          <span class="tag">Flask (Basics)</span>
+          <span class="tag">REST APIs</span>
+        </div>
+      </div>
+      <!-- 4. Databases -->
+      <div class="side-card">
+        <h3 class="mono">Databases</h3>
+        <div class="tag-list">
+          <span class="tag">MySQL</span>
+          <span class="tag">MongoDB (Basics)</span>
+        </div>
+      </div>
+      <!-- 5. Core Computer Science -->
+      <div class="side-card">
+        <h3 class="mono">Core Computer Science</h3>
+        <div class="tag-list">
+          <span class="tag">Data Structures &amp; Algorithms</span>
+          <span class="tag">DBMS</span>
+          <span class="tag">Operating Systems</span>
+          <span class="tag">Computer Networks</span>
+        </div>
+      </div>
+      <!-- 6. Tools and Soft Skills -->
+      <div class="side-card tools-card">
+        <h3 class="mono">Tools &amp; Soft Skills</h3>
+        <div class="tools-skills-layout">
+          <div class="tools-column">
+            <h4 class="mono">Tools</h4>
+            <div class="compact-tags">
+              <span class="tag">VS Code</span>
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Jupyter Notebook</span>
+            </div>
+          </div>
+          <div class="soft-column">
+            <h4 class="mono">Soft Skills</h4>
+            <div class="compact-tags">
+              <span class="tag">Quick Learner</span>
+              <span class="tag">Adaptability</span>
+              <span class="tag">Team Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <div class="section-inner">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <!-- Infosys -->
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div class="timeline-content">
+          <p class="timeline-date mono">Jun 2026 — Aug 2026</p>
+          <h3>Python Tech Stack Intern</h3>
+          <p class="timeline-org">Infosys Springboard</p>
+          <p class="timeline-desc">
+            Developed an AI-powered Emergency Coordination &amp; Decision Engine
+            using Python, Flask, LangChain and Groq LLM, integrating real-time
+            weather, hospital and location data.
+          </p>
+        </div>
+      </div>
+      <!-- SmartBridge -->
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div class="timeline-content">
+          <p class="timeline-date mono">May 2026 — Jul 2026</p>
+          <h3>AIML Intern</h3>
+          <p class="timeline-org">SmartBridge</p>
+          <p class="timeline-desc">
+            Built an HDI Prediction System using Python, Flask and Scikit-learn
+            to predict human development categories from socioeconomic indicators.
+          </p>
+        </div>
+      </div>
+      <!-- NoviTech -->
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div class="timeline-content">
+          <p class="timeline-date mono">Jun 2026 — Jul 2026</p>
+          <h3>Full Stack Development Intern</h3>
+          <p class="timeline-org">NoviTech</p>
+          <p class="timeline-desc">
+            Developed responsive web applications using HTML, CSS, JavaScript
+            and React.js, with exposure to Node.js, Express.js and MongoDB.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+      <!-- Project 1: AI Emergency Coordination -->
+      <article class="project-card">
+        <div class="project-thumb thumb-1">
+          <span class="project-thumb-icon">🚨</span>
+        </div>
+        <div class="project-body">
+          <h3>AI Emergency Coordination &amp; Decision Engine</h3>
+          <p>
+            An AI-powered emergency response platform that classifies incidents,
+            assesses risks, and supports response coordination using real-time
+            weather, hospital, and location data.
+          </p>
+          <div class="tag-list">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">React.js</span>
+            <span class="tag tag-sm">Flask</span>
+            <span class="tag tag-sm">LangChain</span>
+            <span class="tag tag-sm">Groq LLM</span>
+          </div>
+          <a href="#" class="btn btn-outline btn-small">View Project ↗</a>
+        </div>
+      </article>
+      <!-- Project 2: LiveLong AI -->
+      <article class="project-card">
+        <div class="project-thumb thumb-2">
+          <span class="project-thumb-icon">🏥</span>
+        </div>
+        <div class="project-body">
+          <h3>LiveLong AI – Healthcare Decision Intelligence</h3>
+          <p>
+            A healthcare decision-support platform that analyzes symptoms,
+            estimates treatment costs, and recommends hospitals across
+            10 Indian cities.
+          </p>
+          <div class="tag-list">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">Flask</span>
+            <span class="tag tag-sm">SQLite</span>
+            <span class="tag tag-sm">HTML</span>
+            <span class="tag tag-sm">CSS</span>
+            <span class="tag tag-sm">JavaScript</span>
+          </div>
+          <a href="https://github.com/chitteti-Rohith/livelong_Health_care"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-outline btn-small">View Project ↗</a>
+        </div>
+      </article>
+      <!-- Project 3: Student Management -->
+      <article class="project-card">
+        <div class="project-thumb thumb-3">
+          <span class="project-thumb-icon">🎓</span>
+        </div>
+        <div class="project-body">
+          <h3>Student Management System</h3>
+          <p>
+            A web application for managing student records, attendance,
+            and academic results, featuring secure authentication
+            and database operations.
+          </p>
+          <div class="tag-list">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">Flask</span>
+            <span class="tag tag-sm">MySQL</span>
+            <span class="tag tag-sm">HTML</span>
+            <span class="tag tag-sm">CSS</span>
+          </div>
+          <a href="https://github.com/chitteti-Rohith/student-management-system"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-outline btn-small">View Project ↗</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section section-alt" id="certifications">
+  <div class="section-inner">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <span class="cert-icon">🏅</span>
+        <div class="cert-text">
+          <h3>30 Days Masterclass in Full Stack Development</h3>
+          <p class="cert-issuer">NoviTech</p>
+        </div>
+      </div>
+      <div class="cert-card">
+        <span class="cert-icon">🏅</span>
+        <div class="cert-text">
+          <h3>Python Programming</h3>
+          <p class="cert-issuer">GeeksforGeeks</p>
+        </div>
+      </div>
+      <div class="cert-card">
+        <span class="cert-icon">🏅</span>
+        <div class="cert-text">
+          <h3>SQL (Basic)</h3>
+          <p class="cert-issuer">HackerRank</p>
+        </div>
+      </div>
+      <div class="cert-card">
+        <span class="cert-icon">🏅</span>
+        <div class="cert-text">
+          <h3>Software Engineering &amp; Agile Software Development</h3>
+          <p class="cert-issuer">Infosys Springboard</p>
+        </div>
+      </div>
+      <div class="cert-card">
+        <span class="cert-icon">🏅</span>
+        <div class="cert-text">
+          <h3>How Developers Solve Using DSA — 2-Hour Skill Camp</h3>
+          <p class="cert-issuer">NoviTech</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <p class="section-label mono">GET IN TOUCH</p>
+    <h2 class="section-title">Let's start a conversation.</h2>
+    <div class="contact-list">
+      <!-- Email -->
+      <a href="mailto:chitteti.rohith15@gmail.com" class="contact-row">
+        <span class="contact-label mono">EMAIL</span>
+        <span class="contact-value">chitteti.rohith15@gmail.com</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <!-- Phone -->
+      <a href="tel:+917013083263" class="contact-row">
+        <span class="contact-label mono">PHONE</span>
+        <span class="contact-value">+91 7013083263</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/rohith-chitteti-3283a8301/" target="_blank" rel="noopener noreferrer" class="contact-row">
+        <span class="contact-label mono">LINKEDIN</span>
+        <span class="contact-value">Connect with me</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/chitteti-Rohith" target="_blank" rel="noopener noreferrer" class="contact-row">
+        <span class="contact-label mono">GITHUB</span>
+        <span class="contact-value">Explore my repositories</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+</main>
+
+<footer class="footer">
+  <p class="mono">Designed &amp; Built by Rohith Chitteti — <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
